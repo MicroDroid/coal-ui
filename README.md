@@ -1,5 +1,5 @@
 # coal-ui
-A super simple dark UI library.
+dark ui css lib
 
 ## why?
 
