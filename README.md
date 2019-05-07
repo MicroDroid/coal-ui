@@ -16,6 +16,8 @@ dark ui css lib. ([docs](#docs)) ([showcase](https://microdroid.github.io/coal-u
 
 `npm i coal-ui` and use the file in `dist/`. (or download it from repo if you don't use npm)
 
+OR use CDN (via jsdelivr): https://cdn.jsdelivr.net/npm/coal-ui@0.1.2/docs/coal.css
+
 ## docs
 
 ok I won't write like literally everything, most of it just works as expected.
