@@ -82,6 +82,7 @@ ok I won't write like literally everything, most of it just works as expected.
 	- `.text-right`
 	- `.text-left`
 	- `.borderless`
+	- `.sane-image` fix `<img>`s overflowing like crazy outside everything
 
 ----------
 
