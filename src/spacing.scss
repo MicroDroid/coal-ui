@@ -1,0 +1,72 @@
+@each $breakpoint, $width in $breakpoints {
+	@media (min-width: $width) {
+		@for $i from 0 through $spacing-steps {
+			$amount: $i * $spacing-step-size;
+			$affix: #{$breakpoint}-#{$i};
+
+			// Margin
+
+			.mt-#{$affix} {
+				margin-top: $amount;
+			}
+
+			.mr-#{$affix} {
+				margin-right: $amount;
+			}
+
+			.mb-#{$affix} {
+				margin-bottom: $amount;
+			}
+
+			.ml-#{$affix} {
+				margin-left: $amount;
+			}
+
+			.mx-#{$affix} {
+				margin-left: $amount;
+				margin-right: $amount;
+			}
+
+			.my-#{$affix} {
+				margin-top: $amount;
+				margin-bottom: $amount;
+			}
+
+			.m-#{$affix} {
+				margin: $amount;
+			}
+
+			// Padding
+
+			.pt-#{$affix} {
+				padding-top: $amount;
+			}
+
+			.pr-#{$affix} {
+				padding-right: $amount;
+			}
+
+			.pb-#{$affix} {
+				padding-bottom: $amount;
+			}
+
+			.pl-#{$affix} {
+				padding-left: $amount;
+			}
+
+			.px-#{$affix} {
+				padding-left: $amount;
+				padding-right: $amount;
+			}
+
+			.py-#{$affix} {
+				padding-top: $amount;
+				padding-bottom: $amount;
+			}
+
+			.p-#{$affix} {
+				padding: $amount;
+			}
+		}
+	}
+}

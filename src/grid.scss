@@ -1,0 +1,38 @@
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+
+	&.with-gutter {
+		margin-right: -1rem;
+		margin-left: -1rem;
+
+		& > div {
+			padding-left: 1rem;
+			padding-right: 1rem;
+		}
+	}
+}
+
+@each $breakpoint, $width in $breakpoints {
+	@media (min-width: $width) {
+		@for $i from 1 through $grid-columns {
+			.col-#{$breakpoint}-#{$i} {
+				flex: 0 0 #{($i/12) * 100%};
+				max-width: #{($i/12) * 100%};
+			}
+		}
+
+		.col-#{$breakpoint}-auto {
+			flex: 0 0 auto;
+			max-width: auto;
+			width: auto;
+		}
+
+		.col-#{$breakpoint} {
+			flex-basis: 0;
+			flex-grow: 1;
+			max-width: 100%;
+		}
+	}
+}

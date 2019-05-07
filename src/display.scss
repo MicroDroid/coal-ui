@@ -1,0 +1,23 @@
+@each $breakpoint, $width in $breakpoints {
+	@media (min-width: $width) {
+		.d-#{$breakpoint}-inline {
+			display: inline;
+		}
+
+		.d-#{$breakpoint}-inline-block {
+			display: inline-block;
+		}
+
+		.d-#{$breakpoint}-block {
+			display: block;
+		}
+
+		.d-#{$breakpoint}-inline-flex {
+			display: inline-flex;
+		}
+
+		.d-#{$breakpoint}-flex {
+			display: flex;
+		}
+	}
+}

@@ -1,0 +1,37 @@
+.no-overflow {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.no-decoration {
+	text-decoration: none !important;
+}
+
+.circular {
+	border-radius: 50%;
+}
+
+.slightly-rounded {
+	border-radius: 0.25rem;
+}
+
+.rounded {
+	border-radius: 0.5rem;
+}
+
+.very-rounded {
+	border-radius: 1rem;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.borderless {
+	border: none;
+}
