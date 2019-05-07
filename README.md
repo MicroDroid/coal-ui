@@ -1,4 +1,4 @@
-![coal](https://microdroid.github.io/coal-ui/coal.svg | width=240)
+<img src="https://microdroid.github.io/coal-ui/coal.svg" alt="logo" width="240" height="240">
 
 # coal-ui
 dark ui css lib. ([docs](#docs)) ([showcase](https://microdroid.github.io/coal-ui))
