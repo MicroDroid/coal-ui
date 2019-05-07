@@ -1,3 +1,5 @@
+![coal](https://microdroid.github.io/coal-ui/coal.svg)
+
 # coal-ui
 dark ui css lib. ([docs](#docs)) ([showcase](https://microdroid.github.io/coal-ui))
 
